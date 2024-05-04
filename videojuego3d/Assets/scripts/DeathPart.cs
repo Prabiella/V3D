@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class DeathPart : MonoBehaviour
 {
+    public string hexColor = "#E1523D"; // Color rojo como ejemplo
 
     private void OnEnable()
     {
-        GetComponent<Renderer>().material.color = Color.black;
+        Color color;
+        if (ColorUtility.TryParseHtmlString(hexColor, out color))
+        {
+            GetComponent<Renderer>().material.color = color;
+        }
+        else
+        {
+            Debug.LogError("Error al convertir el color hexadecimal");
+        }
     }
-
-
 }

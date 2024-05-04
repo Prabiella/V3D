@@ -361,6 +361,7 @@
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/HelixControler.cs"
 "Assets/scripts/PassScorePoint.cs"
+"Assets/scripts/Stage.cs"
 "Assets/scripts/UiManager.cs"
 -langversion:9.0
 

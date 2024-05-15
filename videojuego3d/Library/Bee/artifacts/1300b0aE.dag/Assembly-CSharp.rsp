@@ -360,6 +360,7 @@
 "Assets/scripts/DeathPart.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/HelixControler.cs"
+"Assets/scripts/MainMenu/MainMenu.cs"
 "Assets/scripts/PassScorePoint.cs"
 "Assets/scripts/Stage.cs"
 "Assets/scripts/UiManager.cs"
